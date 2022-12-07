@@ -398,7 +398,7 @@ export function useNumericFormat<BaseType = InputAttributes>(
 
   return {
     ...(restProps as NumberFormatBaseProps<BaseType>),
-    value: formattedValue,
+    value: forceValue ? forceValue : formattedValue,
     valueIsNumericString: false,
     isValidInputCharacter,
     onValueChange: _onValueChange,

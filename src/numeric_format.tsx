@@ -264,6 +264,7 @@ export function useNumericFormat<BaseType = InputAttributes>(
     prefix = '',
     defaultValue,
     value,
+    forceValue,
     valueIsNumericString,
     onValueChange,
     ...restProps

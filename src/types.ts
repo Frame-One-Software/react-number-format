@@ -101,6 +101,7 @@ export type NumericFormatProps<BaseType = InputAttributes> = NumberFormatProps<
     allowLeadingZeros?: boolean;
     suffix?: string;
     prefix?: string;
+    forceValue?: string;
   },
   BaseType
 >;
